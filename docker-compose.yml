@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  bert_analyzer_api:
+    container_name: bert_analyzer_api
+    build: .
+    restart: unless-stopped
+    volumes:
+      - .:/app
+    command: ["sleep", "1000"]
+    shm_size: 4g
