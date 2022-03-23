@@ -1,2 +1,4 @@
 *.bin
+*.msgpack
+*.h5
 .vscode/*
